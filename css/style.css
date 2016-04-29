@@ -71,3 +71,7 @@ h2{background: #39AAEC; width: 139px; color: #fff; font-family: "微软雅黑","
 .zh_con{height: 75px; margin-top: 15px;}
 .zh_con li{width: 420px; height: 26px; line-height: 26px; }
 .zmqy{width: 280px;}
+
+.zc_l{width:650px; overflow: hidden;}
+.zc_l_pic{width: 140px; margin-top: 10px;}
+.zc_l_con{width: 500px; margin-top: 10px;}
