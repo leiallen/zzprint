@@ -72,6 +72,37 @@ h2{background: #39AAEC; width: 139px; color: #fff; font-family: "微软雅黑","
 .zh_con li{width: 420px; height: 26px; line-height: 26px; }
 .zmqy{width: 280px;}
 
-.zc_l{width:650px; overflow: hidden;}
+.zcfg{margin-bottom: 20px;}
+.zc_l{width:650px; }
 .zc_l_pic{width: 140px; margin-top: 10px;}
-.zc_l_con{width: 500px; margin-top: 10px;}
+.zc_l_con{width: 500px; margin-top: 25px; margin-left: 10px;}
+.zc_l_con p{line-height: 20px; margin-top: 10px;}
+
+.zcfg ul{margin-right: 40px; line-height: 25px;}
+
+/*信息服务*/
+.xxfw .tit ul{margin-left: 15px;}
+.xxfw .tit li{float: left; height: 28px; width: 100px; text-align: center; margin-left: 20px; line-height: 28px; font-size: 13px;}
+.on{background: #fff;}
+
+.xxfw_con ul{display: none; height: 75px; width: 800px; margin-left: 20px;}
+.xxfw_con ul li{height: 25px; line-height: 25px; float: left; width: 240px; }
+
+/*知名企业*/
+
+.zmqy h3{color:#ca3281; padding: 5px; border-bottom: 1px solid #ca3281;}
+.zmqy_con{margin-top: 10px;}
+.zmqy li{margin-top: 10px;}
+.zmqy li img{width: 137px; height: 90px;}
+.zmqy li p{width: 135px; line-height: 20px;}
+
+/*bottom*/
+.bottom{width:1150px; margin: 1px auto; overflow: hidden; border-top: 2px solid #39aaec; padding:10px 0; border-bottom: 1px solid #e8e8e8; }
+.links{width: 1000px; font-size: 12px; margin-left: 20px;}
+.links a{margin-right: 38px;}
+.links p{margin-top: 12px;}
+.wx{width: 100px; line-height: 28px; font-size: 12px;}
+.wx img{width: 70px; height: 70px;}
+
+.footer{width: 1150px; margin: 10px auto 0;}
+.footer p{margin-left: 20px; margin-top: 12px;}
