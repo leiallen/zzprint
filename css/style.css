@@ -1,108 +1,36 @@
-/*样式初始化*/
-body,ul,ol,li,p,h1,h2,h3,h4,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
-body{background:#D0E9FF;color:#333;font-size:12px; margin-top:5px;font-family:"SimSun","宋体","Arial Narrow";}
- 
-ul,ol{list-style-type:none;}
-ul{margin-top: 10px;}
-select,input,img,select{vertical-align:middle;}
- 
-a{text-decoration:none; cursor:pointer; color: #000;}
-a:hover{color: blue;}
-.fl{float:left;}.fr{float:right;}
+/*内页*/
+.address{height: 36px; line-height: 36px; background-color: #f9f9f9; border-bottom: 1px solid #efefef; color: #ccc; padding-right: 20px;}
+.address span {margin-left: 20px;}
+.pad20{padding: 20px;}
+.page{background-color: #f9f9f9; border-top: 1px solid #efefef; padding: 10px;}
 
-/*公用样式*/
-.top{width: 1350px; height: 247px; margin: 0 auto; background: url(../img/top_bg.png) no-repeat; line-height: 24px;}
-.top p{margin:0 20px;}
-.top a{margin: 0 10px;}
+.main{padding: 20px;}
+.main_l{width: 280px;}
+.main_l_a{ border: 1px solid #efefef; margin-bottom: 20px;}
+.main_l_a h2{border-top: 3px solid #269bd7; border-bottom: 1px solid #efefef; padding: 10px; text-align: center; font-size: 18px; font-family:"微软雅黑","黑体";}
+.main_l_a ul{background-color: #efefef; margin-top: 0; }
+.main_l_a ul li a {display: block; height: 40px; line-height: 40px; text-align: center; font-size: 15px; background-color: #f9f9f9; margin-bottom: 1px; position: relative;}
 
-.nav{width: 100%; background: url(../img/nav_bg.jpg) repeat-x; font-family: "微软雅黑","黑体";} 
-.nav ul{width:1200px; margin: 0 auto; overflow: hidden;}
-.nav ul li{width: 120px; height: 41px; text-align: center; float: left; font-size: 16px; background: url(../img/nav_mid_bg.jpg) no-repeat right top; line-height: 41px; }
-.nav ul li a{ color: #fff;}
+.main_r{width:850px;}
+.rightcon{margin-bottom: 20px; border: 1px solid #efefef;}
+.text_list{list-style: none; padding: 10px;}
+.text_list span{float: right;}
+.text_list li{ display:block; padding-left:13px; border-bottom:1px dotted #f0f0f0;line-height:35px; height:35px;background:url(../img/ico.png) 0 -68px no-repeat;}
+.text_list li:hover{ background:#f8f8f8;}
+.text_list li:hover span{ background:#eee;}
+.text_list li a{ display:block; float:left;}
+.text_list li span{color:#999; float:right; padding:0 10px;}
 
-.tit{background: #F1F1F1; height: 38px; line-height: 38px;}
-.tit span{float: right; margin-right: 10px;}
-.tit a{color: #fff;}
-.tit span a{color: #000;}
-h2{background: #39AAEC; width: 139px; color: #fff; font-family: "微软雅黑","黑体"; font-size: 16px; text-indent: 2em; font-weight: normal;}
+.pic_list{ margin:20px 0; padding-top:20px;}
+.pic_list li{ display:block; height:135px; margin-bottom:20px; padding:0 20px;}
+.pic_list li img{ margin-right:20px; float:left; width: 180px; height: 135px;}
+.pic_list span{ display:inline-block; padding:0 15px; color:#555;}
+.pic_list span.icoUser{ background:url(../img/ico.png) 0 5px no-repeat;}
+.pic_list strong{ display:block; margin-bottom:8px;}
+.pic_list span.icoDate{ background:url(../img/ico.png) 0 -24px no-repeat;}
+.pic_list a{ font-size:16px; color:#39aaec;}
 
-/*首页内容开始*/
-.cont{width: 1200px; margin: 0 auto; background: #fff; margin-top: 10px;}
+.rightcon h1{font-size: 21px; color: #269bd7;}
+.time{display: block; margin: 10px 0; padding-bottom: 10px; border-bottom: 1px solid #efefef; color: #999;}
+.rightcon p{line-height: 20px; font-size: 14px; margin: 10px 0; color: #555;}
 
-.cont_a,.cont_b,.cont_c, .cont_d{padding: 20px 20px 10px 20px; overflow: hidden;}
-
-/*焦点图*/
-.focus{width: 808px; height: 428px; background: #1C1C1C; } 
-.showpic{width: 808px; height: 335px;}
-.lipic{width: 808px; height:87px; line-height: 93px;}
-.lipic ul{width: 808px; height:93px;}
-.lipic li{float: left; width: 140px; margin-left:18px; height: 65px; }
-.lipic li img{width: 100%;}
-
-/*要闻推荐*/
-.ywtj{width:330px;}
-.ywtj li{height:96px; border-bottom: 1px dashed #d2d2d0;}
-.ywtj li h3{color: #3399ff; text-align: center; font-size:14px; height:30px; line-height: 30px; }
-.ywtj li p{line-height: 20px;}
-
-/*下载中心*/
-.xzzx{width: 280px; }
-.xzzx li{height: 25px; line-height: 25px; margin-left: 15px; text-indent: 2em;}
-
-.tzgg{width:850px;}
-.tz_pic{width: 260px; height: 200px; background: #000; margin-top: 10px;}
-.tzcont{width: 560px; margin-top: 10px; line-height: 25px;}
-
-.ztzl{width:850px; overflow: hidden;}
-.ztzl li{float: left; width: 180px; height: 180px; margin-left: 25px;}
-.ztzl li img{width: 100%; }
-.ztzl p{color:#fff; text-align: center; width: 180px; background: gray; height: 23px; line-height: 23px;}
-.xwdt{width:280px;}
-.xwdt li{height: 25px; line-height: 25px; margin-left: 15px;}
-
-.cont_b_l{width: 850px;}
-.zhxx, .zcfg, .xxfw{width: 850px; overflow: hidden;}
-.zhxx li{float: left;}
-.zh_pic{height: 95px;}
-.zh_pic li{width: 420px;}
-.zh_pic li img{width: 130px; height: 90px;}
-.zh_pic_r{width: 250px; margin-left: 10px; line-height: 24px;}
-.zh_pic_r p{margin-top: 10px;}
-.zh_con{height: 75px; margin-top: 15px;}
-.zh_con li{width: 420px; height: 26px; line-height: 26px; }
-.zmqy{width: 280px;}
-
-.zcfg{margin-bottom: 20px;}
-.zc_l{width:650px; }
-.zc_l_pic{width: 140px; margin-top: 10px;}
-.zc_l_con{width: 500px; margin-top: 25px; margin-left: 10px;}
-.zc_l_con p{line-height: 20px; margin-top: 10px;}
-
-.zcfg ul{margin-right: 40px; line-height: 25px;}
-
-/*信息服务*/
-.xxfw .tit ul{margin-left: 15px;}
-.xxfw .tit li{float: left; height: 28px; width: 100px; text-align: center; margin-left: 20px; line-height: 28px; font-size: 13px;}
-.on{background: #fff;}
-
-.xxfw_con ul{display: none; height: 75px; width: 800px; margin-left: 20px;}
-.xxfw_con ul li{height: 25px; line-height: 25px; float: left; width: 240px; }
-
-/*知名企业*/
-
-.zmqy h3{color:#ca3281; padding: 5px; border-bottom: 1px solid #ca3281;}
-.zmqy_con{margin-top: 10px;}
-.zmqy li{margin-top: 10px;}
-.zmqy li img{width: 137px; height: 90px;}
-.zmqy li p{width: 135px; line-height: 20px;}
-
-/*bottom*/
-.bottom{width:1150px; margin: 1px auto; overflow: hidden; border-top: 2px solid #39aaec; padding:10px 0; border-bottom: 1px solid #e8e8e8; }
-.links{width: 1000px; font-size: 12px; margin-left: 20px;}
-.links a{margin-right: 38px;}
-.links p{margin-top: 12px;}
-.wx{width: 100px; line-height: 28px; font-size: 12px;}
-.wx img{width: 70px; height: 70px;}
-
-.footer{width: 1150px; margin: 10px auto 0;}
-.footer p{margin-left: 20px; margin-top: 12px;}
